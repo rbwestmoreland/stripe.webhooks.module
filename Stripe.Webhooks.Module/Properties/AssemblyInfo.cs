@@ -17,7 +17,7 @@ using System.Web;
 
 [assembly: Guid("ba61b46d-b088-4b14-9fa0-c3aac6d8d99f")]
 
-[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("1.0.0")]
+[assembly: AssemblyVersion("2.0.0")]
+[assembly: AssemblyFileVersion("2.0.0")]
 
 [assembly: PreApplicationStartMethod(typeof(StripeWebhookModuleLoader), "Load")]
