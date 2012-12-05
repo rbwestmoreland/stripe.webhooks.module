@@ -1,14 +1,14 @@
-﻿using stripe_webhook_module;
+﻿using Stripe.Webhooks.Module;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Web;
 
-[assembly: AssemblyTitle("stripe-webhook-module")]
+[assembly: AssemblyTitle("Stripe.Webhooks.Module")]
 [assembly: AssemblyDescription("stripe.com webhook httpmodule")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bates Westmoreland")]
-[assembly: AssemblyProduct("stripe-webhook-module")]
+[assembly: AssemblyProduct("Stripe.Webhooks.Module")]
 [assembly: AssemblyCopyright("Copyright © Bates Westmoreland 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

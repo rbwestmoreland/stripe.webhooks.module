@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/rbwestmoreland/stripe-webhook-module</licenseUrl>
-    <projectUrl>https://github.com/rbwestmoreland/stripe-webhook-module</projectUrl>
+    <licenseUrl>https://github.com/rbwestmoreland/stripe.webhooks.module</licenseUrl>
+    <projectUrl>https://github.com/rbwestmoreland/stripe.webhooks.module</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <tags>stripe</tags>

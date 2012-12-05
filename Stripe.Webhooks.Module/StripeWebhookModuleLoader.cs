@@ -1,6 +1,6 @@
 ﻿using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
-namespace stripe_webhook_module
+namespace Stripe.Webhooks.Module
 {
     public static class StripeWebhookModuleLoader
     {

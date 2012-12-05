@@ -1,3 +1,3 @@
 md packages
-..\.nuget\nuget.exe pack ..\stripe-webhook-module\stripe-webhook-module.csproj -build -symbols -properties configuration=release -outputdirectory packages
+..\.nuget\nuget.exe pack ..\Stripe.Webhooks.Module\Stripe.Webhooks.Module.csproj -build -symbols -properties configuration=release -outputdirectory packages
 pause

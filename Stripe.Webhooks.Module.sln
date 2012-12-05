@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stripe-webhook-module", "stripe-webhook-module\stripe-webhook-module.csproj", "{4D981BFA-F78F-4485-ABC4-E8EF65016710}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.Webhooks.Module", "Stripe.Webhooks.Module\Stripe.Webhooks.Module.csproj", "{4D981BFA-F78F-4485-ABC4-E8EF65016710}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5062FF3F-E5CA-4EC9-9BE8-006FE4F88C7B}"
 	ProjectSection(SolutionItems) = preProject

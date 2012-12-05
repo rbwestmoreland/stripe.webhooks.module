@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace stripe_webhook_module
+namespace Stripe.Webhooks.Module
 {
     public static class StripeEvents
     {

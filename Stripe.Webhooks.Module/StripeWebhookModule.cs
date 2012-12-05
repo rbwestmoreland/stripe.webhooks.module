@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Web;
 
-namespace stripe_webhook_module
+namespace Stripe.Webhooks.Module
 {
     public class StripeWebhookModule : IHttpModule
     {
