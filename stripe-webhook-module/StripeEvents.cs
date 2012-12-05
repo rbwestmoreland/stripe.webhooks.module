@@ -2,7 +2,7 @@
 
 namespace stripe_webhook_module
 {
-    public static class Events
+    public static class StripeEvents
     {
         /// <summary>
         /// all events

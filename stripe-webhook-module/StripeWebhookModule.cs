@@ -66,108 +66,108 @@ namespace stripe_webhook_module
             {
                 var type = (string)json.type;
 
-                Events.Any(json, type);
+                StripeEvents.Any(json, type);
 
                 switch (type)
                 {
                     case "account.updated":
-                        Events.AccountUpdated(json);
+                        StripeEvents.AccountUpdated(json);
                         break;
                     case "account.application.deauthorized":
-                        Events.AccountApplicationDeauthorized(json);
+                        StripeEvents.AccountApplicationDeauthorized(json);
                         break;
                     case "charge.succeeded":
-                        Events.ChargeSucceeded(json);
+                        StripeEvents.ChargeSucceeded(json);
                         break;
                     case "charge.failed":
-                        Events.ChargeFailed(json);
+                        StripeEvents.ChargeFailed(json);
                         break;
                     case "charge.refunded":
-                        Events.ChargeRefunded(json);
+                        StripeEvents.ChargeRefunded(json);
                         break;
                     case "charge.dispute.created":
-                        Events.ChargeDisputeCreated(json);
+                        StripeEvents.ChargeDisputeCreated(json);
                         break;
                     case "charge.dispute.updated":
-                        Events.ChargeDisputeUpdated(json);
+                        StripeEvents.ChargeDisputeUpdated(json);
                         break;
                     case "charge.dispute.closed":
-                        Events.ChargeDisputeClosed(json);
+                        StripeEvents.ChargeDisputeClosed(json);
                         break;
                     case "customer.created":
-                        Events.CustomerCreated(json);
+                        StripeEvents.CustomerCreated(json);
                         break;
                     case "customer.updated":
-                        Events.CustomerUpdated(json);
+                        StripeEvents.CustomerUpdated(json);
                         break;
                     case "customer.deleted":
-                        Events.CustomerDeleted(json);
+                        StripeEvents.CustomerDeleted(json);
                         break;
                     case "customer.subscription.created":
-                        Events.CustomerSubscriptionCreated(json);
+                        StripeEvents.CustomerSubscriptionCreated(json);
                         break;
                     case "customer.subscription.updated":
-                        Events.CustomerSubscriptionUpdated(json);
+                        StripeEvents.CustomerSubscriptionUpdated(json);
                         break;
                     case "customer.subscription.deleted":
-                        Events.CustomerSubscriptionDeleted(json);
+                        StripeEvents.CustomerSubscriptionDeleted(json);
                         break;
                     case "customer.subscription.trial_will_end":
-                        Events.CustomerSubscriptionTrial_Will_End(json);
+                        StripeEvents.CustomerSubscriptionTrial_Will_End(json);
                         break;
                     case "customer.discount.created":
-                        Events.CustomerDiscountCreated(json);
+                        StripeEvents.CustomerDiscountCreated(json);
                         break;
                     case "customer.discount.updated":
-                        Events.CustomerDiscountUpdated(json);
+                        StripeEvents.CustomerDiscountUpdated(json);
                         break;
                     case "customer.discount.deleted":
-                        Events.CustomerDiscountDeleted(json);
+                        StripeEvents.CustomerDiscountDeleted(json);
                         break;
                     case "invoice.created":
-                        Events.InvoiceCreated(json);
+                        StripeEvents.InvoiceCreated(json);
                         break;
                     case "invoice.updated":
-                        Events.InvoiceUpdated(json);
+                        StripeEvents.InvoiceUpdated(json);
                         break;
                     case "invoice.payment_succeeded":
-                        Events.InvoicePayment_Succeeded(json);
+                        StripeEvents.InvoicePayment_Succeeded(json);
                         break;
                     case "invoice.payment_failed":
-                        Events.InvoicePayment_Failed(json);
+                        StripeEvents.InvoicePayment_Failed(json);
                         break;
                     case "invoiceitem.created":
-                        Events.InvoiceItemCreated(json);
+                        StripeEvents.InvoiceItemCreated(json);
                         break;
                     case "invoiceitem.updated":
-                        Events.InvoiceItemUpdated(json);
+                        StripeEvents.InvoiceItemUpdated(json);
                         break;
                     case "invoiceitem.deleted":
-                        Events.InvoiceItemDeleted(json);
+                        StripeEvents.InvoiceItemDeleted(json);
                         break;
                     case "plan.created":
-                        Events.PlanCreated(json);
+                        StripeEvents.PlanCreated(json);
                         break;
                     case "plan.updated":
-                        Events.PlanUpdated(json);
+                        StripeEvents.PlanUpdated(json);
                         break;
                     case "plan.deleted":
-                        Events.PlanDeleted(json);
+                        StripeEvents.PlanDeleted(json);
                         break;
                     case "coupon.created":
-                        Events.CouponCreated(json);
+                        StripeEvents.CouponCreated(json);
                         break;
                     case "coupon.deleted":
-                        Events.CouponDeleted(json);
+                        StripeEvents.CouponDeleted(json);
                         break;
                     case "transfer.created":
-                        Events.TransferCreated(json);
+                        StripeEvents.TransferCreated(json);
                         break;
                     case "transfer.updated":
-                        Events.TransferUpdated(json);
+                        StripeEvents.TransferUpdated(json);
                         break;
                     case "transfer.failed":
-                        Events.TransferFailed(json);
+                        StripeEvents.TransferFailed(json);
                         break;
                 }
             }

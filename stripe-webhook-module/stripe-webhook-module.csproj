@@ -50,7 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Events.cs" />
+    <Compile Include="StripeEvents.cs" />
     <Compile Include="StripeWebhookModuleLoader.cs" />
     <Compile Include="StripeWebhookModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
